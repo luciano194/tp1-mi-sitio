@@ -39,3 +39,9 @@ limpia la pantalla de la terminal
 se uso para mostrar la version del programa git y para verificar que este instalado el programa 
 correctamente
 
+Pasos para subir al github y git bash
+
+git status
+git add .
+git commit -m "Actualización de archivos HTML y CSS"
+git push origin main
