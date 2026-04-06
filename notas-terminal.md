@@ -40,6 +40,10 @@ se uso para mostrar la version del programa git y para verificar que este instal
 correctamente
 
 Pasos para subir al github y git bash
+pwd 
+cd desktop
+cd tp2-mi-sitio
+ls
 
 git status
 git add .
