@@ -17,6 +17,7 @@ La pagina web creada contiene mi informacion personal, mis intereses y una secci
 - Visual Studio Code
 - Git
 - Termianl (Git Bash)
+- Python
 
 ## Reflexion 
 Aprender a usar la terminal es mucho mas sencillo, mucho mas rapida y directa con el sistema operativo.
