@@ -1,11 +1,25 @@
-*{
+ :root{ 
+    --color-primary: pink;
+    --color-secondary: purple;
+    --color-accent: #F59E0B;
+    --color-text: #334155;
+    --color-bg: #F8FAFC;
+    --radius: 50%;
+
+ }
+
+/*======= TP1 ========*/
+ *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+.FOTOPROGRAMACION{
+    border-radius:  var(--radius);
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header{
@@ -16,9 +30,13 @@ header{
 }
 
 nav{
-    background-color: #444;
+    background-color: gray;
     padding: 1rem;
     text-align: center;
+}
+
+nav a{
+    color: white
 }
 
 nav a:hover{
@@ -32,8 +50,91 @@ section{
 
 
 footer{
-    background-color: #222;
-    color: white;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+   /* color: white;*/
     text-align: center;
     padding: 2rem;
 }
+
+
+/*======= TP2 ========*/
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input:not([type="checkbox"]), textarea, select { 
+    width: 100%;
+    padding: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+} 
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none; 
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+input:valid,
+textarea:valid {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+} 
+
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border: 2px solid red; 
+} 
+
+input:focus,
+textarea:focus,
+select:focus{
+    border: 2px solid blue;
+    box-shadow: 0 0 5px rgba(0,0,255,0.3);
+    outline: none;
+}
+
+
+form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.terminos {
+    display: flex;
+    font-size: 13px;
+    margin:  10px;
+    gap: 10px;
+    
+}
+.terminos input{
+    width: auto;
+    margin:  0;
+}
+.terminos label {
+    font-size: 13px;
+    margin-left: 0;
+    
+
+}
+
+
+
+
+
+
