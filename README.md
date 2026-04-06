@@ -30,6 +30,10 @@ Por esta razón es una habilidad fundamental para los programadores.
 comando ustilizado = whitch git
 /mingw64/bin/git
 
+# Pruebas
+
+- Prueba de Pull Request
+
 ## Contacto
 
 posadaluciano49@gmail.com
