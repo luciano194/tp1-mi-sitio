@@ -5,23 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
+<div class="layout">
     <header>
         <h1>Posada Aguilar Luciano Gabriel</h1>
         <p>Estudiante de la Carrera Analista de Sistemas- Salta, Argentina</p>   
+        <nav>
+          <a href="#sobre-mi">Sobre Mi</a>
+          <a href="#intereses">Intereses</a>
+          <a href="#contacto">Contacto</a>
+          <a href="contacto.html">Formulario</a>
+       </nav>
     </header>
-    <nav>
-        <a href="#sobre-mi">Sobre mi</a>
-        <a href="#intereses">Intereses</a>
-        <a href="#contacto">Contacto</a>
-        <a href="contacto.html">Formulario</a>
-    </nav>
-
+         <aside class="sidebar">
+            <h3>Menú</h3>
+            <p>Inicio</p>
+            <p>Servicios</p>
+            <p>Contacto</p>
+         </aside>       
     <main>
+        
+        <section class="hero">
+             <div class="hero-contenido">
+              <h2>Luciano Gabriel Posada Aguilar</h2>
+              <p>Practica Profesional II - Desarrollador Web Junior</p>
+              <a href="#contacto" class="btn">Contactame</a>
+             </div>
+        </section>
         <section id="sobre-mi">
           <h2>Sobre Mi</h2>
-          <img src="images/foto1.jpeg"  alt="Foto de Luciano">
+          <img class="FOTO1" src="images/foto1.jpeg"  alt="Foto de Luciano">
           <p>"¡Buenos dias, estrellitas! ¡La tierra les dice hola!" </p>
           <p>Soy Estudiante del Terciario Gral. Manuel Belgrano, Cursando Profesional 2</p>
         </section>
@@ -43,19 +61,66 @@
             <h2>Contacto</h2>
             <p> Puedes contactarme por correo electronico posadaluciano49@gmail.com </p>
         </section>
-        
-            <section id="formulario">
-               <h2>Formulario</h2>
-
-        </section>
-
     
+        <section id="tarjetas">
+            <h2>Mis Servicios</h2>
+
+             <div class="contenedor-tarjetas">
+
+               <div class="tarjeta">
+                 <h3>Programación Web</h3>
+                 <p>Desarrollo páginas web modernas con HTML, CSS y JavaScript.</p>
+               </div>
+
+               <div class="tarjeta">
+                <h3>Bases de Datos</h3>
+                <p>Diseño y gestión de bases de datos eficientes.</p>
+               </div>
+
+                <div class="tarjeta">
+                <h3>Seguridad Informática</h3>
+                <p>Protección de sistemas y datos frente a amenazas digitales.</p>
+                </div>
+
+            </div>                       
+        </section>
+        <section class="galeria">
+            <h2>Mis Proyectos</h2>
+
+    <div class="grid-galeria">
+        <div class="card">
+            <h3>💻 Página Web</h3>
+            <p>Mi primer sitio web.</p>
+        </div>
+
+        <div class="card">
+            <h3>🗄️ Base de Datos</h3>
+            <p>Proyecto de base de datos.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔒 Seguridad</h3>
+            <p>Conceptos básicos.</p>
+        </div>
+
+        <div class="card">
+            <h3>📱 Proyecto Futuro</h3>
+            <p>Aplicación en desarrollo.</p>
+        </div>
+    </div>
+</section>
+
     </main>
 
 <footer>
     <p>&copy; 2026 Luciano Posada TODOS LOS DERECHOS RESERVADOS</p>
+    <p>
+        <a href="https://www.facebook.com/luciano.aguilar.321629"    target="_blank">Facebook</a>
+        <a href="https://luciano194.github.io/tp1-mi-sitio/"         target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/luciano-posada-ba33263b9/"  target="_blank">LinkedIn</a>
+    </p>
 </footer>
-
+</div>
 </body>
     
 
