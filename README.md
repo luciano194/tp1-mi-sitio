@@ -23,9 +23,9 @@ Este es mi proyecto de pagina web personal donde practico HTML5, CSS3 y diseño 
 
 ## Capturas
 
-![Mobile] (images/mobile.png)
-![Tablet] (images/tablet.png)
-![Desktop] (images/desktop.png)
+- Mobile
+- Tablet
+- Desktop
 
 
 
