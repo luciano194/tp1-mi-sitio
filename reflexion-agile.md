@@ -8,3 +8,7 @@ Un MVP (Producto Mínimo Viable) es una versión básica de un producto que tien
 
 c) Cómo ayudó el tablero Kanban
 El tablero Kanban me ayudó a organizar las tareas del trabajo práctico de forma clara. Pude dividir el proyecto en tareas pequeñas y ver en qué estado estaba cada una. Por ejemplo, coloqué la creación del repositorio en "Done" cuando ya estaba terminada y el Pull Request en "In Progress" mientras lo estaba preparando. Esto facilitó seguir el avance del proyecto y no olvidar tareas importantes.
+
+# CSS
+
+h1, h2, h3 == pueden ir asi para mantener un estilo mas limpio
