@@ -4,11 +4,10 @@
 LUCIANO GABRIEL POSADA AGUILAR 
 
 ## Fecha
-16 DE MARZO DE 2026
+13 DE ABRIL DE 2026
 
 ## Descripcion del sitio Web 
-El Trabajo Practico N° 1 consiste en la creacion de un sitio web usando Html y Css3 basico en el Visual Estudio Code 
-La pagina web creada contiene mi informacion personal, mis intereses y una seccion de contacto
+Este es mi proyecto de pagina web personal donde practico HTML5, CSS3 y diseño responsive.
 
 ## Tecnologias Utilizadas
 
@@ -18,12 +17,21 @@ La pagina web creada contiene mi informacion personal, mis intereses y una secci
 - Git
 - Termianl (Git Bash)
 - Python
+- Flexbox
+- Grid
+- Diseño Responsive 
+
+## Capturas
+
+![Mobile] (images/mobile.png)
+![Tablet] (images/tablet.png)
+![Desktop] (images/desktop.png)
+
+
+
 
 ## Reflexion 
-Aprender a usar la terminal es mucho mas sencillo, mucho mas rapida y directa con el sistema operativo.
-Muchas herramientas de desarrollo utilizan comandos de terminal para crear proyectos, instalar dependencias o administrar archivos.  
-Aunque las interfaces gráficas son más fáciles de usar, la terminal ofrece mayor control sobre el sistema.  
-Por esta razón es una habilidad fundamental para los programadores.
+Me permitio poner en practica el uso de Flexbox, grid y diseño responsive.
 
 ## Ubicacion de Git en el sistema 
 
