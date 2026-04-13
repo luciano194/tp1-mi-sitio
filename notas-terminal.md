@@ -49,3 +49,19 @@ git status
 git add .
 git commit -m "Actualización de archivos HTML y CSS"
 git push origin main
+
+-----Branch---- LOGIN
+git branch     # Te muestra en que branch estas o rama
+git checkout feature-login  # vamos a la branch
+git add .
+git commit -m "Actualización de archivos HTML y CSS"
+git push origin main
+
+-----Branch---- RP-DEMO
+git branch     # Te muestra en que branch estas o rama
+git checkout feature/pr-demo  # vamos a la branch
+git add .
+git commit -m "Actualización de archivos HTML y CSS"
+git push origin main
+
+
