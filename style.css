@@ -9,8 +9,6 @@
     --radius: 8px;
     --shadow: 0 2px 8px rgba(0,0,0,0.1);
     --font-main: arial, helvetica, sans-serif;
-
- 
  }
 
 /*======= TP1 ========*/
@@ -56,8 +54,6 @@ nav a:hover{
     color: var(--color-accent);
 }
 
-
- 
 h1  {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
@@ -81,7 +77,6 @@ h3{
   font-size: 1.3rem;
 }
  
-
 header{
     background-color: var(--color-secondary);
     color: var(--color-primary);
@@ -106,8 +101,6 @@ section{
     padding: 2rem;
 }
 
-
-
 footer{
     background-color: var(--color-secondary);
     color: var(--color-primary);
@@ -130,8 +123,6 @@ footer p{
 footer a:hover{
     text-decoration: underline;
 }
-
-/*======= TP2 ========*/
 
 label {
     display: block;
@@ -162,7 +153,6 @@ button:hover {
     background-color: darkgreen;
 }
 
-
 input:valid,
 textarea:valid {
     border: 2px solid green;
@@ -182,8 +172,6 @@ select:focus{
     outline: none;
 }
 
-/*parte final*/
-
 form{
     width: 300px;
     margin: 0 auto;
@@ -191,7 +179,6 @@ form{
     
 }
 
-/*terminos= aqui se trabaja en esa parte*/
 .terminos {
     display: flex;
     font-size: 13px;
@@ -210,8 +197,6 @@ form{
     
 
 }
-/*==========TP3===========*/
-/*==========TP3===========*/
 
 /* CONTENEDOR */
 .contenedor-tarjetas{
